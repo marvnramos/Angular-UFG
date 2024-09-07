@@ -1,0 +1,11 @@
+<!-- <h1>Hola UFG</h1>
+
+
+<h1>Hola {{title}}</h1>
+
+<app-compa></app-compa> -->
+
+<h1>Two way Binding</h1>
+<app-calculadora [tituloRecibir]="tituloAEnviar" (resultadoCambio)="manejarResultado($event)"></app-calculadora>
+
+<p>Resultado desde hijo: {{resultadoHijo}}</p>
