@@ -7,6 +7,8 @@ import { CalculadoraComponent } from './pages/calculadora/calculadora.component'
 import { CientificaComponent } from './pages/cientifica/cientifica.component';
 import { FormsModule } from '@angular/forms';
 import { CompaComponent } from './compa/compa.component';
+import { ProgramacionComponent } from './programacion/programacion.component';
+import { HalaMadridComponent } from './hala-madrid/hala-madrid.component';
 
 
 @NgModule({
@@ -14,7 +16,9 @@ import { CompaComponent } from './compa/compa.component';
     AppComponent,
     CalculadoraComponent,
     CientificaComponent,
-    CompaComponent
+    CompaComponent,
+    ProgramacionComponent,
+    HalaMadridComponent,
   ],
   imports: [
     BrowserModule,
