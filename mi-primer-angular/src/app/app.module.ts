@@ -10,6 +10,7 @@ import { CompaComponent } from './pages/compa/compa.component';
 import { ProgramacionComponent } from './pages/programacion/programacion.component';
 import { HalaMadridComponent } from './pages/hala-madrid/hala-madrid.component';
 import { CompbComponent } from './pages/compb/compb.component';
+import { CalculadoreNotestComponent } from './pages/calculadore-notest/calculadore-notest.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { CompbComponent } from './pages/compb/compb.component';
     ProgramacionComponent,
     HalaMadridComponent,
     CompbComponent,
+    CalculadoreNotestComponent,
   ],
   imports: [
     BrowserModule,
