@@ -11,6 +11,14 @@ import { ProgramacionComponent } from './pages/programacion/programacion.compone
 import { HalaMadridComponent } from './pages/hala-madrid/hala-madrid.component';
 import { CompbComponent } from './pages/compb/compb.component';
 import { CalculadoreNotestComponent } from './pages/calculadore-notest/calculadore-notest.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { Part1Component } from './pages/part1/part1.component';
+import { Part2Component } from './pages/part2/part2.component';
+import {MatToolbarModule} from "@angular/material/toolbar";
+import {MatIconModule} from "@angular/material/icon";
+import {MatMenuModule} from "@angular/material/menu";
+import {MatSidenavModule} from "@angular/material/sidenav";
+import {MatListModule} from "@angular/material/list";
 
 
 @NgModule({
@@ -23,11 +31,19 @@ import { CalculadoreNotestComponent } from './pages/calculadore-notest/calculado
     HalaMadridComponent,
     CompbComponent,
     CalculadoreNotestComponent,
+    Part1Component,
+    Part2Component,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatMenuModule,
+    MatSidenavModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
